@@ -10,3 +10,5 @@ def remove_char(input_string, n):
 user_input = input("please provide a word: ")
 n = int(input("what is the value of n: "))
 # remove char function and print the result
+result = remove_char(user_input, n)
+print("Result:", result)
